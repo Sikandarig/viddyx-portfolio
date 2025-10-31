@@ -61,14 +61,14 @@ export default function Header() {
             <Button
               variant="outline"
               onClick={() => scrollToSection("cta")}
-              className="border-violet-500/50 text-violet-400 hover:bg-violet-500/10"
+              className="border-primary/50 text-primary hover:bg-primary/10"
               data-testid="button-get-quote"
             >
               Get a Quote
             </Button>
             <Button
               onClick={() => scrollToSection("cta")}
-              className="bg-violet-600 hover:bg-violet-700 text-white shadow-lg shadow-violet-500/30"
+              className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white shadow-lg shadow-primary/30"
               data-testid="button-book-call"
             >
               Book a Call
@@ -102,14 +102,14 @@ export default function Header() {
               <Button
                 variant="outline"
                 onClick={() => scrollToSection("cta")}
-                className="border-violet-500/50 text-violet-400 hover:bg-violet-500/10 w-full"
+                className="border-primary/50 text-primary hover:bg-primary/10 w-full"
                 data-testid="button-mobile-quote"
               >
                 Get a Quote
               </Button>
               <Button
                 onClick={() => scrollToSection("cta")}
-                className="bg-violet-600 hover:bg-violet-700 text-white w-full"
+                className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white w-full"
                 data-testid="button-mobile-call"
               >
                 Book a Call

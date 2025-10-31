@@ -14,7 +14,7 @@ export default function CTA() {
   }, []);
 
   return (
-    <section id="cta" className="py-20 px-6 lg:px-8 bg-gradient-to-b from-transparent via-violet-950/10 to-transparent">
+    <section id="cta" className="py-20 px-6 lg:px-8 bg-gradient-to-b from-transparent via-primary/5 to-transparent">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">
@@ -26,7 +26,7 @@ export default function CTA() {
         </div>
 
         <Card
-          className="bg-gradient-to-br from-violet-900/30 to-blue-900/30 border-violet-500/30 p-4 md:p-8 max-w-4xl mx-auto"
+          className="bg-gradient-to-br from-primary/30 to-accent/30 border-primary/30 p-4 md:p-8 max-w-4xl mx-auto"
           data-testid="card-booking"
         >
           <div 
@@ -41,7 +41,7 @@ export default function CTA() {
               Or email us directly at{" "}
               <a
                 href="mailto:contact@viddyx.com"
-                className="text-violet-400 hover:text-violet-300 transition-colors"
+                className="text-accent hover:text-accent/80 transition-colors"
                 data-testid="link-email"
               >
                 contact@viddyx.com

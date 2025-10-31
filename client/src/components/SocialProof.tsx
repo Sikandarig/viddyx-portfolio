@@ -29,9 +29,9 @@ export default function SocialProof() {
               className="flex flex-col items-center gap-3 group"
               data-testid={`team-member-${index}`}
             >
-              <Avatar className="w-24 h-24 border-2 border-violet-500/30 group-hover:border-violet-500 transition-all group-hover:scale-105">
+              <Avatar className="w-24 h-24 border-2 border-primary/30 group-hover:border-primary transition-all group-hover:scale-105">
                 <AvatarImage src="" alt={member.name} />
-                <AvatarFallback className="bg-gradient-to-br from-violet-600 to-blue-600 text-white text-xl font-semibold">
+                <AvatarFallback className="bg-gradient-to-br from-primary to-accent text-white text-xl font-semibold">
                   {member.initials}
                 </AvatarFallback>
               </Avatar>

@@ -19,7 +19,7 @@ export default function Comparison() {
   ];
 
   return (
-    <section id="comparison" className="py-20 px-6 lg:px-8 bg-gradient-to-b from-violet-950/10 to-transparent">
+    <section id="comparison" className="py-20 px-6 lg:px-8 bg-gradient-to-b from-primary/5 to-transparent">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -46,10 +46,10 @@ export default function Comparison() {
           </Card>
 
           <Card
-            className="bg-gradient-to-br from-violet-600/20 to-blue-600/20 border-violet-500/50 p-8 relative overflow-hidden"
+            className="bg-gradient-to-br from-primary/20 to-accent/20 border-primary/50 p-8 relative overflow-hidden"
             data-testid="card-us"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-violet-600/10 to-blue-600/10" />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10" />
             <div className="relative">
               <h3 className="text-2xl font-bold text-white mb-6">Us</h3>
               <ul className="space-y-4">

@@ -65,7 +65,7 @@ export default function Services() {
                   className="bg-white/5 border-white/10 overflow-hidden group hover-elevate"
                   data-testid={`youtube-video-${index}`}
                 >
-                  <div className="aspect-video bg-gradient-to-br from-violet-900/40 to-blue-900/40 relative flex items-center justify-center">
+                  <div className="aspect-video bg-gradient-to-br from-primary/40 to-accent/40 relative flex items-center justify-center">
                     <Play className="w-12 h-12 text-white/80 group-hover:scale-110 transition-transform" />
                   </div>
                   <div className="p-4">
@@ -88,7 +88,7 @@ export default function Services() {
                   className="bg-white/5 border-white/10 overflow-hidden group hover-elevate"
                   data-testid={`short-video-${index}`}
                 >
-                  <div className="aspect-[9/16] bg-gradient-to-br from-violet-900/40 to-blue-900/40 relative flex items-center justify-center">
+                  <div className="aspect-[9/16] bg-gradient-to-br from-primary/40 to-accent/40 relative flex items-center justify-center">
                     <Video className="w-10 h-10 text-white/80 group-hover:scale-110 transition-transform" />
                   </div>
                   <div className="p-3">
@@ -113,7 +113,7 @@ export default function Services() {
                     className="bg-white/5 border-white/10 p-6 hover-elevate"
                     data-testid={`service-${index}`}
                   >
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-violet-600 to-blue-600 flex items-center justify-center mb-4">
+                    <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-4">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <h4 className="text-white font-semibold text-lg mb-2">

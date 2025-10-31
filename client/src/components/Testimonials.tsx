@@ -36,7 +36,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-20 px-6 lg:px-8 bg-gradient-to-b from-transparent to-violet-950/10">
+    <section className="py-20 px-6 lg:px-8 bg-gradient-to-b from-transparent to-primary/5">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -54,7 +54,7 @@ export default function Testimonials() {
               className="bg-white/5 border-white/10 overflow-hidden group hover-elevate"
               data-testid={`testimonial-${index}`}
             >
-              <div className="aspect-video bg-gradient-to-br from-violet-900/30 to-blue-900/30 relative flex items-center justify-center">
+              <div className="aspect-video bg-gradient-to-br from-primary/30 to-accent/30 relative flex items-center justify-center">
                 <div className="absolute inset-0 bg-black/40" />
                 <Play className="w-16 h-16 text-white/80 group-hover:scale-110 transition-transform relative z-10" />
               </div>

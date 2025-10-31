@@ -83,7 +83,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter", "Manrope", "sans-serif"],
+        heading: ["Satoshi", "Plus Jakarta Sans", "sans-serif"],
+        body: ["Inter", "Plus Jakarta Sans", "sans-serif"],
+        sans: ["Inter", "Plus Jakarta Sans", "sans-serif"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
       },

@@ -46,10 +46,10 @@ export default function FAQ() {
             <AccordionItem
               key={index}
               value={`item-${index}`}
-              className="bg-white/5 border border-white/10 rounded-lg px-6 data-[state=open]:border-violet-500/50"
+              className="bg-white/5 border border-white/10 rounded-lg px-6 data-[state=open]:border-primary/50"
               data-testid={`faq-${index}`}
             >
-              <AccordionTrigger className="text-white hover:text-violet-400 text-left">
+              <AccordionTrigger className="text-white hover:text-primary text-left">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-gray-400 leading-relaxed">

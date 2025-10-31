@@ -19,14 +19,14 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 lg:px-8 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 via-transparent to-blue-600/10 pointer-events-none" />
-      <div className="absolute top-20 left-10 w-96 h-96 bg-violet-600/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl" />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-transparent to-accent/10 pointer-events-none" />
+      <div className="absolute top-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto text-center pt-32 pb-20">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
           Elevate Your Brand with{" "}
-          <span className="bg-gradient-to-r from-violet-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Stunning
           </span>{" "}
           Video Content
@@ -40,7 +40,7 @@ export default function Hero() {
           <Button
             size="lg"
             onClick={() => scrollToSection("cta")}
-            className="bg-violet-600 hover:bg-violet-700 text-white shadow-lg shadow-violet-500/40 px-8 py-6 text-lg"
+            className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white shadow-lg shadow-primary/40 px-8 py-6 text-lg"
             data-testid="button-hero-book"
           >
             Book a Call
@@ -49,7 +49,7 @@ export default function Hero() {
             size="lg"
             variant="outline"
             onClick={() => scrollToSection("services")}
-            className="border-violet-500/50 text-violet-400 hover:bg-violet-500/10 px-8 py-6 text-lg group"
+            className="border-primary/50 text-primary hover:bg-primary/10 px-8 py-6 text-lg group"
             data-testid="button-hero-work"
           >
             <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />

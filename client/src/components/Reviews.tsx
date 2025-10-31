@@ -64,13 +64,13 @@ export default function Reviews() {
           {reviews.map((review, index) => (
             <Card
               key={index}
-              className="bg-white/5 border-violet-500/20 p-6 hover-elevate"
+              className="bg-white/5 border-primary/20 p-6 hover-elevate"
               data-testid={`review-${index}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <Avatar className="w-12 h-12 border border-violet-500/30">
+                <Avatar className="w-12 h-12 border border-primary/30">
                   <AvatarImage src="" alt={review.name} />
-                  <AvatarFallback className="bg-gradient-to-br from-violet-600 to-blue-600 text-white font-semibold">
+                  <AvatarFallback className="bg-gradient-to-br from-primary to-accent text-white font-semibold">
                     {review.initials}
                   </AvatarFallback>
                 </Avatar>
