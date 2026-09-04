@@ -1,5 +1,5 @@
 import { Instagram, Linkedin } from "lucide-react";
-import logoUrl from "@assets/generated_images/Viddyx_logo_design_ca821334.png";
+import BrandMark from "./BrandMark";
 
 function YouTubeBrandIcon() {
   return (
@@ -52,10 +52,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <img src={logoUrl} alt="Viddyx Logo" className="w-10 h-10 rounded-lg" />
-              <span className="text-white font-bold text-xl">Viddyx</span>
-            </div>
+            <BrandMark className="mb-4" />
             <p className="text-gray-400 leading-relaxed max-w-md">
               We create stunning video content that elevates brands and drives real results. Your vision, our expertise.
             </p>
@@ -115,7 +112,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm">
-            © 2025 Viddyx. All rights reserved.
+            © 2025 ZELWICK. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">

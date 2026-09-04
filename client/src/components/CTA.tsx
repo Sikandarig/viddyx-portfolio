@@ -40,11 +40,11 @@ export default function CTA() {
             <p className="text-gray-400 text-sm">
               Or email us directly at{" "}
               <a
-                href="mailto:contact@viddyx.com"
+                href="mailto:contact@zelwick.com"
                 className="text-accent hover:text-accent/80 transition-colors"
                 data-testid="link-email"
               >
-                contact@viddyx.com
+                contact@zelwick.com
               </a>
             </p>
           </div>

@@ -1,4 +1,4 @@
-# Viddyx Design Guidelines
+# ZELWICK Design Guidelines
 
 ## Design Approach
 **Reference-Based Approach**: Dark-themed creative agency with inspiration from modern portfolio sites like Awwwards-featured agencies, combined with the polished aesthetics of Linear and Stripe's restraint.

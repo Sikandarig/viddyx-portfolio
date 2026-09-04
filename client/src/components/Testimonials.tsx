@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Viddyx transformed our YouTube channel. Our views increased by 300% in just 3 months!",
+      quote: "ZELWICK transformed our YouTube channel. Our views increased by 300% in just 3 months!",
       name: "Alex Turner",
       role: "CEO, TechStartup Inc",
     },
@@ -29,7 +29,7 @@ export default function Testimonials() {
       role: "CMO, E-commerce Brand",
     },
     {
-      quote: "Working with Viddyx feels like having an in-house team, but with world-class expertise.",
+      quote: "Working with ZELWICK feels like having an in-house team, but with world-class expertise.",
       name: "Sophie Martinez",
       role: "Creative Director, Agency",
     },

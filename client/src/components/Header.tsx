@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoUrl from "@assets/generated_images/Viddyx_logo_design_ca821334.png";
+import BrandMark from "./BrandMark";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,10 +39,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
-            <img src={logoUrl} alt="Viddyx Logo" className="w-10 h-10 rounded-lg" />
-            <span className="text-white font-bold text-xl">Viddyx</span>
-          </div>
+          <BrandMark />
 
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
