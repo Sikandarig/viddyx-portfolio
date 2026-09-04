@@ -1,5 +1,25 @@
-import { Instagram, Linkedin, Youtube } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 import logoUrl from "@assets/generated_images/Viddyx_logo_design_ca821334.png";
+
+function YouTubeBrandIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="32"
+      height="32"
+      role="img"
+      aria-labelledby="youtube-brand-title"
+      className="block h-8 w-8"
+    >
+      <title id="youtube-brand-title">YouTube</title>
+      <path
+        fill="#FF0000"
+        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.017 3.017 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.016 3.016 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814Z"
+      />
+      <path fill="#FFFFFF" d="M9.545 15.568 15.818 12 9.545 8.432v7.136Z" />
+    </svg>
+  );
+}
 
 export default function Footer() {
   const companyLinks = [
@@ -25,7 +45,6 @@ export default function Footer() {
   const socialLinks = [
     { icon: Instagram, href: "https://www.instagram.com/sikandarkhan2677/", label: "Instagram" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/m-sikandar/", label: "LinkedIn" },
-    { icon: Youtube, href: "https://www.youtube.com/@sikvideoeditor/videos", label: "YouTube" },
   ];
 
   return (
@@ -116,6 +135,16 @@ export default function Footer() {
                 </a>
               );
             })}
+            <a
+              href="https://www.youtube.com/@sikvideoeditor/videos"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              data-testid="social-youtube"
+              className="inline-flex min-h-8 min-w-8 items-center justify-center"
+            >
+              <YouTubeBrandIcon />
+            </a>
           </div>
         </div>
       </div>
